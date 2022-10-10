@@ -21,7 +21,7 @@ function parseSearch(q) {
     window.open(q, "_self");
     return;
   }
-  targetURL = "https://google.com/search?q=" + encodeURIComponent(q);
+  targetURL = "https://duckduckgo.com/?q=" + encodeURIComponent(q);
   window.open(targetURL, "_self");
 }
 
